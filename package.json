@@ -1,0 +1,22 @@
+{
+  "name": "emarsys-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "tape test.js | tap-spec"
+  },
+  "main": "test.js",
+  "description": "emarsys test",
+  "author": {
+    "name": "dsz",
+    "email": "damjan.szabolcs@gmail.com"
+  },
+  "engines": {
+    "node": "8.12.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "4.9.1",
+    "tap-spec": "5.0.0"
+  }
+}
